@@ -1,0 +1,27 @@
+Tugas 2.1
+2.1 Dari kedua class tersebut, tidak ada method dengan isi yang sama karena kedua bentuk tersebut memiliki rumus yang berbeda.
+2.2 Dari konsep pewarisan, dapat disimpulkan bahwa suatu child class dapat memanggil atribut maupun method dari parent class nya dengan menggunakan keyword "super"
+
+Tugas 2.2
+
+1. a) terdapat error pada class Kerucut di bagian extends Tabung, karena class Tabung diberi final, sehingga class tersebut tidak dapat diwariskan ke subclass.
+
+b) terjadi error pada setter setTinggi pada class Tabung, karena variabel tinggi diberi final, sehingga nilai nya hanya dapat diinisialisasi sekali dan tidak dapat diubah lagi.
+
+c) terjadi error pada class Kerucut bagian getVolume, karena method getVolume pada class Tabung diberi final, sehingga method tersebut tidak dapat di-overwrite pada subclass.
+
+
+2. Static adalah perintah pada bahasa pemrograman yang membolehkan akses langsung terhadap property atau method tanpa harus melewati objek, sehingga hanya cukup menuliskan nama kelasnya saja.
+
+Batasan-batasan yang ada pada static antara lain:
+
+1. Method static tidak dapat menggunakan data member non-static atau memanggil method non-static secara langsung.
+2. Method static hanya dapat mengakses tipe data static (variabel instance bertipe static).
+3. Static tidak bisa menggunakan this atau super keyword.
+4. Method static tidak dapat di override pada subclass.
+
+Static dapat diberikan pada class, variabel, dan method.
+
+Jika static diberikan pada class, artinya class tersebut hanya bisa diakses menggunakan nama class itu sendiri dan tidak bisa diinstansiasi ke objek lain.
+Jika static diberikan pada variabel, artinya nilai variabel tersebut bersifat global dan dapat diakses dari mana saja tanpa harus menginstansiasi class tersebut.
+Jika static diberikan pada method, artinya method tersebut bisa dipanggil tanpa harus menginstansiasi objek dari class tersebut.
